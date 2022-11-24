@@ -6,8 +6,12 @@ function main() {
     function foo() {
         console.log(str);
     }
+    function baz() {
+        str = str + " world"
+    }
 
     function bar() {
+        baz()
         foo();
     }
     bar();
