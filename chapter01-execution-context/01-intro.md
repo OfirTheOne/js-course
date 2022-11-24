@@ -96,7 +96,7 @@ push main ⤵            push bar ⤵            push baz ⤵            pop baz
 └───────────────┘      └───────────────┘      └───────────────┘      └───────────────┘      └───────────────┘   
 
 
-pop console.log        pop bar ⤴              push foo ⤵            push console.log ⤵    pop console.log ⤴
+pop console.log ⤴      pop bar ⤴             push foo ⤵            push console.log ⤵    pop console.log ⤴
 
 │   console.log │      │               │      │               │      │               │      │   console.log │    
 ├───────────────┤      ├───────────────┤      ├───────────────┤      ├───────────────┤      ├───────────────┤ 
