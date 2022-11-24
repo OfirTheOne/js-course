@@ -76,7 +76,7 @@ When `console.log` returns, the context for console.log() is removed from the ex
 <br>
 <br>
 
-#### <u>Illustration of the context stack :</u>
+#### Illustration of the context stack :
 
 ```
 │               │   │               │   │               │   │   baz         │   │               │   
