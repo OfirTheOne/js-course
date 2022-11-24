@@ -47,7 +47,7 @@ In this screenshot you can see each level in context of the running program :
 
 <u>Let's go over each step if the execution flow :</u>
 
-TL;DR see [Illustration](####illustration-of-the-context-stack)
+TL;DR see [Illustration](#illustration-of-the-context-stack-)
 
 * Upon starting the program, the global context is created.
 
