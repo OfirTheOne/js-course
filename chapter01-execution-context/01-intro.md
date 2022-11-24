@@ -59,7 +59,8 @@ it's pushed onto the execution context stack.
 
 * When `baz` is reached, a context is created for the `baz()` function;
 it's pushed onto the execution context stack.
-When `baz` returns, the context for baz() is removed from the execution stack and destroyed. 
+
+* When `baz` returns, the context for baz() is removed from the execution stack and destroyed. 
 `baz` continues to execute where it left off.
 
 * When `foo` is reached, a context is created for the `foo()` function; 
@@ -67,11 +68,15 @@ it's pushed onto the execution context stack.
    
 * When `console.log` is reached, a context is created for the `console.log()` function;
 it's pushed onto the execution context stack.
-When `console.log` returns, the context for console.log() is removed from the execution stack and destroyed. 
+
+* When `console.log` returns, the context for console.log() is removed from the execution stack and destroyed. 
 `console.log` continues to execute where it left off.         
 
 * When `foo` returns, the context for foo() is removed from the execution stack and destroyed. 
 `foo` continues to execute where it left off.
+
+* When `main` returns, the context for main() is removed from the execution stack and destroyed. 
+`main` continues to execute where it left off.
 
 <br>
 <br>
