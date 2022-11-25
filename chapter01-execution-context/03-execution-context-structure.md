@@ -7,8 +7,6 @@
 
 <br>
 
-// The execution context relation with the call stack determine the order of the program.
-
 The structure of the execution context can be represented as an object with three properties:
 
 ```js
@@ -58,10 +56,7 @@ pow2(num);
 
 ```
 
-<br>
-
-
-**Global Execution context :**
+Global Execution context :
 
 ```js
 {
@@ -77,10 +72,8 @@ pow2(num);
     variableEnvironment: { ... }
 }
 ```
-<br>
 
-
-**`pow2` Execution context :**
+`pow2` Execution context :
 
 ```js
 {
@@ -96,6 +89,10 @@ pow2(num);
     variableEnvironment: { ... }
 }
 ```
+
+<br>
+
+
 ## <u> Variable Environment </u>
 
 
