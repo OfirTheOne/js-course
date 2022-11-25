@@ -109,9 +109,12 @@ pop foo ⤴              pop main ⤴            done
 └───────────────┘      └───────────────┘      └───────────────┘
 
 ```
+<br>
+<br>
 
-<img src="https://user-images.githubusercontent.com/37986794/203842836-8fff1c44-5155-433f-9f4d-6ed57a97f486.png" width="700px" />
+----
 
+<br>
 
 
 
