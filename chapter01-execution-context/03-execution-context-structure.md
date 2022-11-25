@@ -95,6 +95,11 @@ Global Execution context :
 
 ## <u> Variable Environment </u>
 
+[ECMA-262 specification](https://262.ecma-international.org/10.0/#table-23) :
+
+> Variable Environment identifies the Lexical Environment whose EnvironmentRecord holds bindings created by VariableStatements within this execution context.
+
+Simply put it, Variable Environment stores identifier-value mappings **declared with the `var` keyword** within its execution context.
 
 <br>
 <br>

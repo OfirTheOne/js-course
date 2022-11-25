@@ -6,7 +6,7 @@
 # Execution context stack
 
 <br>
-
+The execution context stack is used to track execution contexts. The running execution context is always the top element of this stack.
 Each context is, in essence, a level of scope within your code. When a context is created, it is placed on the execution context stack (or "call stack"). When it exits, the context is removed from the context stack.
 Consider the JavaScript program below:
 
@@ -130,3 +130,5 @@ pop foo ⤴              pop main ⤴            done
 ### Resource : 
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth#javascript_execution_contexts
+
+https://262.ecma-international.org/10.0/#sec-execution-contexts
