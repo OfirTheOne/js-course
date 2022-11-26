@@ -17,6 +17,9 @@ ExecutionContext = {
 }
 ```
 
+> Note : <br>
+In the JS language functions are objects, they can be passed as parameter to other functions, can be returned as a return value (farther more it execution can be delayed asynchronously and remain in a single thread with the synchronous program), etc, as a result of that behavior, a function can be executed in a total different environment from where it was initially defined, and so, for a function to "have every thing it needed" to reference, to properly run - it holds a **backpack** - that is, its Execution Context.
+
 <br>
 
 ## <u> This Binding </u>
@@ -105,6 +108,11 @@ Simply put it, Variable Environment stores identifier-value mappings **declared 
 <br>
 
 ----
+
+## How is this useful 
+
+this subject may not be as practical as other, but most of the time when a pice of js code behave in an unexpected way - the underline reason would be, its execution context reference values you'll not expect, so understanding this subject to its core will save you a lot of time guessing.
+
 
 <br>
 
