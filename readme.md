@@ -14,3 +14,6 @@
     * [Analyze Code Exercise](./chapter01-execution-context/04-analyze-code-exercise.md)
 
 
+* [Chapter02 - Closure](./chapter02-closure/readme.md)
+
+    * [Intro](./chapter02-closure/01-intro.md)
