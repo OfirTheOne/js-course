@@ -119,3 +119,5 @@ this subject may not be as practical as other, but most of the time when a pice 
 ### Resource : 
 
 https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide/In_depth#javascript_execution_contexts
+
+https://betterprogramming.pub/javascript-internals-execution-context-bdeee6986b3b
