@@ -17,3 +17,4 @@
 * [Chapter02 - Closure](./chapter02-closure/readme.md)
 
     * [Intro](./chapter02-closure/01-intro.md)
+    * [Practical Explanation](./chapter02-closure/02-practical-explanation.md)
